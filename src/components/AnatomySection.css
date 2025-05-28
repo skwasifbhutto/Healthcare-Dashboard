@@ -1,0 +1,82 @@
+.anatomy-section {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  margin-top: -50px;
+
+}
+
+.anatomy-image-container {
+  position: relative;
+  width: 300px;
+  height: 450px;
+}
+
+.anatomy-image {
+  width: 100%;
+  height: 350px;
+  object-fit: contain;
+}
+
+.anatomy-tag {
+  position: absolute;
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: default;
+  user-select: none;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.15);
+}
+
+.health-status-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-grow: 1;
+}
+
+.health-status-card {
+  display: flex;
+  gap: 20px;
+  background-color: #f8faff;
+  padding: 15px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.05);
+  align-items: center;
+}
+
+.health-status-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.health-status-info h4 {
+  margin: 0 0 6px 0;
+  font-weight: 600;
+  font-size: 16px;
+  color: #2a2a72;
+}
+
+.health-status-info p {
+  margin: 0 0 8px 0;
+  font-size: 12px;
+  color: #7a7a9d;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background-color: #d1d9e6;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  border-radius: 10px;
+}

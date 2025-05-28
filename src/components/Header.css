@@ -1,0 +1,101 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e6f0;
+  box-sizing: border-box;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.app-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #27cff1;
+  margin: 0;
+}
+
+.app-title1 {
+  color: black;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar input {
+  padding: 8px 30px 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d9e6;
+  font-size: 14px;
+  color: #7a7a9d;
+  background-color: #f8faff;
+  width: 600px;
+  margin-left: 20px;
+
+}
+
+.search-icon {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #7a7a9d;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: default;
+  color: #7a7a9d;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #4a4a6a;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.user-avatar {
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.add-button {
+  background-color: #2a2a72;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 10px;
+  height: 10px;
+  font-size: 24px;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+
