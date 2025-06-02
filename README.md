@@ -4,7 +4,7 @@ This is a static healthcare dashboard built with React. It presents various heal
 
 ## 🔗 Deployment
 
-You can view the live project here: [https://your-deployment-url.com](https://healthcare-dashb.netlify.app/)
+You can view the live project here: [https://taupe-torrone-7d30aa.netlify.app/](https://taupe-torrone-7d30aa.netlify.app/)
 
 ## 🖼️ Output Screenshot
 
